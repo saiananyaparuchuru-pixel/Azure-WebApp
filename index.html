@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Details</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f2f2f2;
+        }
+
+        h1 {
+            color: darkblue;
+        }
+
+        table {
+            margin: auto;
+            background-color: white;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        th {
+            background-color: lightblue;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Student Details</h1>
+
+    <table>
+        <tr>
+            <th>Student ID</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Year</th>
+            <th>Email</th>
+        </tr>
+
+        <tr>
+            <td>101</td>
+            <td>Rahul</td>
+            <td>Computer Science</td>
+            <td>III Year</td>
+            <td>rahul@example.com</td>
+        </tr>
+
+        <tr>
+            <td>102</td>
+            <td>Priya</td>
+            <td>Information Science</td>
+            <td>III Year</td>
+            <td>priya@example.com</td>
+        </tr>
+
+        <tr>
+            <td>103</td>
+            <td>Arun</td>
+            <td>Computer Science</td>
+            <td>III Year</td>
+            <td>arun@example.com</td>
+        </tr>
+    </table>
+
+    <button onclick="showMessage()">Click Me</button>
+
+    <script>
+        function showMessage() {
+            alert("Welcome to My Web Application!");
+        }
+    </script>
+
+</body>
+</html>
